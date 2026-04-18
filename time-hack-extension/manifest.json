@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "⚡ Time Warp - Game Speed Booster",
+  "version": "1.0",
+  "description": "Makes websites think time passes faster. 1 real second = 10 game seconds!",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
